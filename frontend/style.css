@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecbfbf;
+}
+
+.container {
+    max-width: 30vw;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #bae9fd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: bolder;
+} 
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ 
+    
+}
+
+.edit-button {
+    background-color: #28a745;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button {
+    background-color: #dc3545;
+}
+
+.task-actions button:hover {
+    background-color: #c82333;
+}
+
+.edit-task {
+    background-color: #007bff;
+}
+
+.edit-task:hover {
+    background-color: #0069d9;
+}
