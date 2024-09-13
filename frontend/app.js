@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const descriptionInput = document.getElementById('description');
     const dueDateInput = document.getElementById('dueDate');
   
-    const apiUrl = 'http://localhost:4040/tasks';
+    const apiUrl = 'https://task-management-application-9rry.onrender.com/tasks';
   
     // Fetch all tasks
     const fetchTasks = async () => {
